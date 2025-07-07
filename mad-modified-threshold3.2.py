@@ -1,10 +1,7 @@
 import pandas as pd
 import numpy as np
 
-# Define file path
 file_path = r'C:\Users\aram\Desktop\ms data analysis python\ms wt nondiff.xlsx'
-
-# Load the Excel file
 df = pd.read_excel(file_path)
 
 # Ensure columns are numeric (convert non-numeric to NaN), skipping the first column (protein names)
